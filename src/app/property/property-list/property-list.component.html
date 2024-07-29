@@ -1,1 +1,13 @@
-<p>property-list works!</p>
+
+<div class="container" style="box-shadow: none;">
+  <div class="row">
+    <ng-container *ngFor="let item of shorouk; let i = index">
+    
+      <div class="col-md-4 mb-4 d-flex align-items-stretch">
+        <app-property-card [shorouk]="item"></app-property-card>
+      </div>
+    </ng-container>
+  </div>
+</div>
+
+

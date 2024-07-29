@@ -15,7 +15,7 @@ import { NavBarComponent } from './property/nav-bar/nav-bar.component';
     PropertyCardComponent,
     PropertyListComponent,
     NavBarComponent
-  
+    
   ],
   imports: [
     BrowserModule,

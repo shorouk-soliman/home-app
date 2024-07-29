@@ -1,11 +1,19 @@
-<div class="container" style="box-shadow: none;">
-    <div class="card shadow p-3" style="width: 18rem;">
-      <img src="assets/home1.webp" class="card-img-top" alt="My home">
-      <div class="card-body" style="margin-top:-5rem;">
-        <h2 class="card-title">{{propert.Name}}</h2>
-        <h4 class="card-text">{{propert.type}}</h4>
-        <h4 class="card-text">{{propert.price}}</h4>
-      </div>
-    </div>
+<div class="card custom-card">
+  <div class="img-wrapper">
+    <img src="assets/home1.webp" class="card-img-top" alt="My home">
+    <ul class="list-inline text-center member-icons animate">
+      <li class="list-inline-item">
+        <button class="btn btn-primary"><i class="fa fa-car"></i></button>
+      </li>
+      <li class="list-inline-item">
+
+        <button class="btn btn-primary"><i class="fa fa-car"></i></button>
+      </li>
+    </ul>
   </div>
-  
+  <div class="card-body p-2">
+    <h2 class="card-title">{{shorouk.Name}}</h2>
+    <h4 class="card-text">{{shorouk.type}}</h4>
+    <h4 class="card-text">{{shorouk.price}}</h4>
+  </div>
+</div>
